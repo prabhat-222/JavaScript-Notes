@@ -99,6 +99,11 @@ console.log(allVal);
 
 // entries methode :-
 
-console.log(Object.entries(jsUser));
+console.log(Object.entries(jsUser));  // it will return every key value in array.
+
+//  Check value exist or not :-
+
+
+console.log(jsUser.hasOwnProperty("isLoggedIn"));
 
 

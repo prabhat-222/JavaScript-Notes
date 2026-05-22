@@ -106,4 +106,17 @@ console.log(Object.entries(jsUser));  // it will return every key value in array
 
 console.log(jsUser.hasOwnProperty("isLoggedIn"));
 
+// Destructure of an object :-
+
+let product = {
+    name: "Table",
+    price: "888",
+    platform: "flipkart"
+}
+
+const {price} = product;  // Now we can write simply price for value not product.price.
+
+console.log(price);
+
+
 
